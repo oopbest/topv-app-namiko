@@ -37,10 +37,10 @@ export default function Home() {
           alt="Namiko Banner"
         />
 
-        <section className="container grid justify-items-center md:grid-cols-2 md:space-x-4">
+        <section className="container grid justify-items-center px-3 md:grid-cols-2 md:space-x-4 xl:px-0">
           <div>
-            <h2 className="mb-10 ps-3 text-3xl text-primary md:mb-16 md:ps-0">
-            Every Emotion captured By &quot;Namiko&quot;
+            <h2 className="mb-10 ms-3 text-3xl text-primary md:mb-16 md:ps-0">
+              Every Emotion captured By &quot;Namiko&quot;
             </h2>
             <div className="*:my-3">
               <Image
@@ -72,7 +72,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="container flex flex-col">
+        <section className="container flex flex-col px-3 xl:px-0">
           <h2 className="mb-6 flex justify-center text-3xl text-primary md:justify-end">
             เก็บความรู้สึกด้วย Namiko
           </h2>
@@ -108,7 +108,7 @@ export default function Home() {
         </section>
 
         <section className="container flex flex-wrap items-center justify-center px-5 md:px-0">
-          <div className="order-2 space-y-6 text-primary md:order-1 md:basis-1/2">
+          <div className="order-2 space-y-6 px-3 text-primary md:order-1 md:basis-1/2 xl:px-0">
             <h2 className="text-3xl">Namiko กล่องอาหารสเตนเลส 4 ช่อง 1500ml</h2>
             <p>
               สามารถเก็บความร้อนได้ดี ออกแบบให้เติมน้ำร้อนเพื่อรักษาอุณหภูมิ

@@ -87,7 +87,7 @@ export default function MenuMobile({ toggleMenu, isOpenMenu }: Props) {
                 </a>
               </button>
             </div>
-            <small className="block pt-3 text-center text-gray-400">
+            <small className="block py-3 text-center text-gray-400">
               © topvalue 2024
             </small>
           </div>

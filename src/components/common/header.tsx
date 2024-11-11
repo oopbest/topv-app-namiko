@@ -31,9 +31,9 @@ export default function Header() {
   return (
     <>
       <header className="sticky top-0 z-10 bg-white py-4 shadow-md">
-        <nav className="container mx-auto flex w-full items-center md:px-3 xl:px-0">
+        <nav className="container mx-auto flex w-full items-center lg:px-3 xl:px-0">
           <button
-            className="mx-5 flex items-center md:hidden"
+            className="mx-5 flex items-center lg:hidden"
             onClick={toggleMenu}
             id="hamburger-button"
           >
@@ -42,11 +42,11 @@ export default function Header() {
           <Link href="/">
             <Image src={logo} alt="logo" />
           </Link>
-          <ul className="hidden w-full justify-evenly underline-offset-4 *:text-primary md:flex hover:[&_a]:underline">
+          <ul className="hidden w-full justify-evenly underline-offset-4 *:text-primary lg:flex hover:[&_a]:underline">
             <MunuList />
           </ul>
           <button
-            className="mx-4 flex h-[2rem] w-2/3 items-center rounded-lg border-2 border-gray-200 bg-gray-50 px-2 py-1 text-start text-gray-400 hover:cursor-pointer hover:border-primary md:mx-0 md:w-1/4"
+            className="mx-4 flex h-[2rem] w-full items-center rounded-lg border-2 border-gray-200 bg-gray-50 px-2 py-1 text-start text-gray-400 hover:cursor-pointer hover:border-primary lg:mx-0 lg:w-1/4"
             onClick={toggleSearch}
           >
             <FontAwesomeIcon icon={faMagnifyingGlass} className="ms-1 size-4" />
